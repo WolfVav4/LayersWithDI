@@ -43,15 +43,13 @@
   <ItemGroup>
     <Compile Include="IDataSource.cs" />
     <Compile Include="MockDataSource.cs" />
+    <Compile Include="Entities\Catergory.cs" />
+    <Compile Include="Entities\ProductInRecipe.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\Recipe.cs" />
     <Compile Include="ProductDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLDataSorce.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj">
-      <Project>{5d28c408-e44b-4e03-b94f-3863d59d7966}</Project>
-      <Name>Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_GUI", "Layers\A_GUI.csproj", "{9998788B-C1F1-4ED6-A413-8D02896F71B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_A_GUI", "Layers\1_A_GUI.csproj", "{9998788B-C1F1-4ED6-A413-8D02896F71B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "BLL\Services.csproj", "{9169FB47-34FD-444C-AE84-480FB1D7C5F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Services", "BLL\2_Services.csproj", "{9169FB47-34FD-444C-AE84-480FB1D7C5F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "DAL\Repositories.csproj", "{96B29CE6-ED40-40B4-A3C6-FCCA12075908}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Repositories", "DAL\3_Repositories.csproj", "{96B29CE6-ED40-40B4-A3C6-FCCA12075908}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{5D28C408-E44B-4E03-B94F-3863D59D7966}"
 EndProject

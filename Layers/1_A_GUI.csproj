@@ -67,17 +67,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BLL\Services.csproj">
+    <ProjectReference Include="..\BLL\2_Services.csproj">
       <Project>{9169fb47-34fd-444c-ae84-480fb1d7c5f2}</Project>
-      <Name>Services</Name>
+      <Name>2_Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DAL\Repositories.csproj">
+    <ProjectReference Include="..\DAL\3_Repositories.csproj">
       <Project>{96b29ce6-ed40-40b4-a3c6-fcca12075908}</Project>
-      <Name>Repositories</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Models\Models.csproj">
-      <Project>{5d28c408-e44b-4e03-b94f-3863d59d7966}</Project>
-      <Name>Models</Name>
+      <Name>3_Repositories</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-﻿using Models;
+﻿using Repositories.Entities;
 using System.Collections.Generic;
 
 
@@ -10,11 +10,11 @@ namespace Repositories
         void init()
         {
             products = new List<Product>();
-            products.Add(new Product() { ProductId = 0, Name = "Flour" });
-            products.Add(new Product() { ProductId = 1, Name = "Suger" });
-            products.Add(new Product() { ProductId = 2, Name = "Salt" });
-            products.Add(new Product() { ProductId = 3, Name = "Egg" });
-            products.Add(new Product() { ProductId = 4, Name = "Oil" });
+            products.Add(new Product() { Id = 0, Name = "Flour", DefaultTool = 3});
+            products.Add(new Product() { Id = 1, Name = "Suger", DefaultTool = 2 });
+            products.Add(new Product() { Id = 2, Name = "Salt", DefaultTool = 4 });
+            products.Add(new Product() { Id = 3, Name = "Egg", DefaultTool = 2 });
+            products.Add(new Product() { Id = 4, Name = "Oil" ,DefaultTool = 1});
         }
 
         //CRUD
@@ -38,7 +38,7 @@ namespace Repositories
             Product currProduct = null;
             foreach (var item in products)
             {
-                if (item.ProductId == productId)
+                if (item.Id == productId)
                     currProduct = item;
             }
             products.Remove(currProduct);

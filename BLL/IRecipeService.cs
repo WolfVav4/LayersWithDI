@@ -1,15 +1,13 @@
-﻿
-using Repositories.Entities;
+﻿using Repositories.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repositories
+namespace Services
 {
-    public interface IDataSource
+    internal interface IRecipeService : IService <Recipe >
     {
-        List<Product> GetAll();
     }
 }
